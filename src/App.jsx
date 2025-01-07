@@ -37,11 +37,16 @@ function App() {
       </div>
 
       <div>
-        <h2>Class component</h2>
+        <h2>Class component, image from Internet</h2>
         <ImgComponent
           src='https://cdn.pixabay.com/photo/2024/12/28/01/27/ai-generated-9295105_1280.jpg'
           alt='Immagine di Pixabay'
         />
+      </div>
+
+      <div>
+        <h2>Class component, image from file</h2>
+        <ImgComponent src='/img1.jpg' alt='Immagine da file' />
       </div>
     </>
   );
